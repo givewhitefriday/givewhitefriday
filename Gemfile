@@ -1,5 +1,6 @@
 source :rubygems
 
+gem 'foreman'
 # Server requirements (defaults to WEBrick)
 gem 'thin'
 # gem 'mongrel'

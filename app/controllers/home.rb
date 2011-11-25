@@ -1,7 +1,8 @@
 Givewhitefriday.controllers :home do
-  get :index, :map => "/" do
-    render 'index'
-  end
+  # get :index, :map => "/foo/bar" do
+  #   session[:foo] = "bar"
+  #   render 'index'
+  # end
 
   # get :sample, :map => "/sample/url", :provides => [:any, :js] do
   #   case content_type
@@ -17,5 +18,8 @@ Givewhitefriday.controllers :home do
   #   "Hello world!"
   # end
 
-  
+  get :index, :map => "/" do
+    render 'index'
+  end
+
 end
